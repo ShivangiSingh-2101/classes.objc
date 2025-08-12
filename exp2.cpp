@@ -12,7 +12,7 @@ int length=5.0;
 int volume()
 {
   int v;
-v=heigth*width*length;
+v=height*width*length;
 return v;
 }
 };
