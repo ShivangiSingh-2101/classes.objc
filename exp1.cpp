@@ -1,3 +1,6 @@
+//shivangi Singh
+//24070123148
+//B3
 #include<iostream>
 using namespace std;
 class cube{
@@ -12,4 +15,7 @@ int main()
 int vol=c1.height*c1.width*c1.length;
 cout<<"Volume:"<<vol<<endl;
 }
+/* Output
+Volume:30
+*/
 
