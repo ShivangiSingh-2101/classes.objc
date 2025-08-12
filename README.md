@@ -86,3 +86,40 @@ Algorithm:
 - Store result in vol
 - Display vol
 - End
+
+Program 4
+
+Aim:
+
+To write a C++ program that calculates the volume of a cuboid using a class with private data members, and public member functions to accept user input and compute the volume.
+
+Theory:
+In Object-Oriented Programming (OOP), encapsulation is the concept of binding data and methods that operate on the data into a single unit called a class. It also involves restricting access to some components for data protection.
+In this program:
+A class named cube is used to encapsulate the dimensions: height, width, and length as private data members.
+Two public member functions are defined:
+getInput() – to take input for dimensions from the user
+volume() – to calculate and return the volume using the formula:
+Volume=height×width
+×length
+Volume=height×width×length
+This design follows good programming practices by keeping data secure and accessing it through public interfaces.
+
+Algorithm:
+- Start
+- Define a class cube with:
+- Private data members: height, width, length
+- A public function getInput() to:
+- Prompt the user and read values of height, width, and length
+- A public function volume() to:
+- Multiply the values: height * width * length
+- Return the result
+- In the main() function:- 
+- Create an object of class cube (e.g., cube1)
+- Call cube1.getInput() to read dimensions from the user
+- Call cube1.volume() and store the result in a variable
+- Display the calculated volume
+- End
+
+
+
