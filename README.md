@@ -56,3 +56,33 @@ Though the class is named cube, it's technically representing a cuboid, as the d
 - Print the value of vol.
 - End
 
+Program 3
+
+ Aim:
+To write a C++ program that calculates the volume of a cuboid using a class with private data members and a public member function.
+
+ Theory:
+ 
+In Object-Oriented Programming (OOP), encapsulation is the concept of restricting direct access to some of an object’s components, which helps protect the integrity of the data.
+Private data members cannot be accessed directly from outside the class.
+Public member functions act as the interface to work with private members.
+In this program:
+A class cube is created with private data members.
+The function volume() is public and returns the calculated volume.
+Formula for volume of a cuboid:
+Volume=height×width×length
+Volume=height×width×length
+
+Algorithm:
+- Start
+- Define a class cube:
+- Private data members: height = 2, width = 3, length = 5
+-  Public function volume() that:
+- Computes v = height * width * length
+- Returns v
+- In the main() function:
+- Create an object cube1 of class cube-  
+- Call the volume() method using the object
+- Store result in vol
+- Display vol
+- End
